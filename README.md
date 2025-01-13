@@ -46,19 +46,22 @@ cd to-do-react-app
 
 ### 2. Install Dependencies
 
-```npm install
+```
+npm install
 ```
 
 ### 3. Start the Development Server
 
-```npm run dev
+```
+npm run dev
 ```
 
 Visit http://localhost:5173 in your browser to view the app.
 
 ### 4. Build for Production
 
-```npm run build
+```
+npm run build
 ```
 
 The optimized production files will be available in the dist/ folder.
@@ -67,14 +70,11 @@ The optimized production files will be available in the dist/ folder.
 
 ## Usage
 
-### 1. **Add a Task:**
-Type a task in the input field and click "Add Task" to add it to the list.
+- 1. **Add a Task:** Type a task in the input field and click "Add Task" to add it to the list.
 
-### 1. **Mark as Completed:**
-Click the checkbox to mark a task as completed.
+- 2. **Mark as Completed:** Click the checkbox to mark a task as completed.
 
-### 1. **Delete a Task:**
-Click the "Delete" button next to a task to remove it from the list.
+- 3. **Delete a Task:** Click the "Delete" button next to a task to remove it from the list.
 
 ---
 
