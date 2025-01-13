@@ -15,6 +15,7 @@ A simple and interactive To-Do List application built using React. This app demo
 
 ## Project Structure
 
+```
 to-do-react-app/ 
 ├── public/ # Static assets 
 ├── src/ 
@@ -28,6 +29,7 @@ to-do-react-app/
 ├── package.json # Project configuration and dependencies 
 ├── vite.config.js # Vite configuration 
 └── README.md # Project documentation
+```
 
 ---
 
