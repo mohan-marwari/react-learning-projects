@@ -8,6 +8,7 @@ const HomePage = () => {
 
   return (
     <div>
+      <h3>search for the weather</h3>
       <SearchBar onCitySelect={setCity} />
       {city && (
         <>
