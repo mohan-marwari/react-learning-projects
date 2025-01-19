@@ -26,7 +26,7 @@ const Forecast = ({ city }) => {
   return (
     <Grid2 container spacing={2}>
       {forecast.map((day, index) => (
-        <Grid2 item xs={12} sm={6} md={4} lg={2} key={index}>
+        <Grid2 xs={12} sm={6} md={4} lg={2} key={index}>
           <Card sx={{ boxShadow: 3, borderRadius: 2 }}>
             <CardContent>
               <Typography variant="h6">Day {new Date(day.dt_txt).toDateString()}</Typography>
