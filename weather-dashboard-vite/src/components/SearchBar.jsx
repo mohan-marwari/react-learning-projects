@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { TextField, Autocomplete } from '@mui/material';
 import axios from 'axios';
+// import { API_KEY } from '../services/weatherService';
 
 const SearchBar = ({ onCitySelect }) => {
   const [options, setOptions] = useState([]);
@@ -11,10 +12,11 @@ const SearchBar = ({ onCitySelect }) => {
       const response = await axios.get(`https://api.openweathermap.org/data/2.5/find`, {
         params: {
           q: query,
-          appid: 'YOUR_API_KEY',
+          appid: 'a74cc6fb4d05dfbea3b67acfd1d07cdc',
         },
       });
-      setOptions(response.data.list.map((city) => city.name));
+      const cities = response.data.list.map((city) => city.name);
+      setOptions([...new Set(cities)]);  // Remove duplicate cities
     }
   };
 
